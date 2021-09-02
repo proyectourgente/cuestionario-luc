@@ -19,11 +19,13 @@ const Polis = ({ uuid }) => {
   useEffect(() => {
     const iframe = document.getElementById("polis_".concat(conversationId));
     if (iframe) {
+      console.log("if iframe true");
       const iWindow = iframe.contentWindow;
       const iDocument = iWindow.document;
 
       // accessing the element
       const headingA = iDocument.getElementsByClassName("HeadingA")[0];
+      console.log(headingA);
       headingA.style.display = "none";
       setIframeReady(true);
     }
