@@ -2,11 +2,13 @@ version: '3.3'
 
 services:
 
-  cuestionario-luc:
+  luc-uy:
     build: .
     image: democraciauy/lucuy
     ports:
       - "8080"
+    networks:
+      - traefik_proxy
     labels:
       - "traefik.http.routers.luc-uy.rule=Host(`luc.uy`)"
       - "traefik.http.routers.luc-uy.tls=true"
@@ -18,3 +20,9 @@ services:
       - REACT_APP_API_URL=https://pes-core-pes-dev.cloudtest.imm.gub.uy/api-frontend
       - REACT_APP_USERS_URL=https://pes-core-pes-dev.cloudtest.imm.gub.uy/users
       - REACT_APP_CELERY_FLOWR_API_URL=https://pes-core-pes-dev.cloudtest.imm.gub.uy/api-frontend/flower
+
+
+
+networks:
+  traefik_proxy:
+    external: true
