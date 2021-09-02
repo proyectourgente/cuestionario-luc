@@ -24,7 +24,7 @@ const Polis = ({ uuid }) => {
 
       // accessing the element
       const headingA = iDocument.getElementsByClassName("HeadingA")[0];
-      headingA.style.color = "green";
+      headingA.style.display = "none";
       setIframeReady(true);
     }
   }, [loaded]);
