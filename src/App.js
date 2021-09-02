@@ -33,11 +33,12 @@ function App() {
           setCreated(event.data.conversation.created);
           setId(event.data.conversation.conversation_id);
         }
-        console.log(event.data);
       },
       false
     );
   }, []);
+
+  
 
   return (
     <div className="App">

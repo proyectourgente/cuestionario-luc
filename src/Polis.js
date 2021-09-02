@@ -3,6 +3,8 @@ import loadPolis from "./loadPolis";
 
 const Polis = ({ uuid }) => {
   const [loaded, setLoaded] = useState(false);
+  const [iframeReady, setIframeReady] = useState(false);
+
   const urlLoader = "https://cuestionario.luc.uy/embed.js";
   const conversationId = "3cc5bz2bfc";
   //const urlLoader = "https://pol.is/embed.js";
@@ -13,6 +15,19 @@ const Polis = ({ uuid }) => {
       setLoaded(true);
     });
   });
+
+  useEffect(() => {
+    const iframe = document.getElementById("polis_".concat(conversationId));
+    if (iframe) {
+      const iWindow = iframe.contentWindow;
+      const iDocument = iWindow.document;
+
+      // accessing the element
+      const headingA = iDocument.getElementsByClassName("HeadingA")[0];
+      headingA.style.color = "green";
+      setIframeReady(true);
+    }
+  }, [loaded]);
 
   return (
     <div>

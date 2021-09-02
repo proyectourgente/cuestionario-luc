@@ -1,0 +1,12 @@
+version: '3.3'
+
+services:
+
+  cuestionario-luc:
+    build: .
+    ports:
+      - "3001:8080"
+    environment:
+      - REACT_APP_API_URL=https://pes-core-pes-dev.cloudtest.imm.gub.uy/api-frontend
+      - REACT_APP_USERS_URL=https://pes-core-pes-dev.cloudtest.imm.gub.uy/users
+      - REACT_APP_CELERY_FLOWR_API_URL=https://pes-core-pes-dev.cloudtest.imm.gub.uy/api-frontend/flower
