@@ -1,7 +1,11 @@
 import { useEffect, useState } from "react";
 import loadPolis from "./loadPolis";
+import { useAuth0 } from "@auth0/auth0-react";
+
 
 const Polis = ({ uuid }) => {
+
+  const { user, isAuthenticated, isLoading } = useAuth0();
   const [loaded, setLoaded] = useState(false);
 
   const urlLoader = "https://cuestionario.luc.uy/embed.js";
@@ -13,7 +17,7 @@ const Polis = ({ uuid }) => {
     loadPolis(urlLoader, () => {
       setLoaded(true);
     });
-  });
+  },[isAuthenticated]);
 
   
 
@@ -24,6 +28,10 @@ const Polis = ({ uuid }) => {
         className="polis"
         data-conversation_id={conversationId}
         data-xid={uuid}
+        data-x_name={user?.name}
+        data-x_profile_image_url={user?.picture}
+        data-show_vis={true}
+        data-show_share={true}
       ></div>
     </div>
   );
