@@ -3,9 +3,12 @@ import Polis from "./Polis";
 import { v4 as uuidv4 } from "uuid";
 import { useEffect, useState } from "react";
 import LoginButton from "./LoginButton";
+import AuthenticationButton from "./AuthButton";
+import Profile from "./Profile";
 
 
 function App() {
+
   const [userUuid, setUserUuid] = useState(undefined);
   const [statusOk, setStatusOk] = useState(false);
   const [title, setTitle] = useState("");
@@ -44,8 +47,10 @@ function App() {
 
   return (
     <div className="App">
-      <header></header>
-      <LoginButton/>
+      <header>
+        <Profile/>
+      </header>
+      <AuthenticationButton/>
       <div>
         <Polis uuid={userUuid} />
       </div>
