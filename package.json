@@ -16,8 +16,8 @@
     "xid-js": "^1.0.1"
   },
   "scripts": {
-    "start": "craco start",
-    "build": "craco build",
+    "start": "REACT_APP_LOADER_URL=https://cuestionario.luc.uy/embed.js REACT_APP_CONVERSATION_ID=9ctb4fadft craco start",
+    "build": "REACT_APP_LOADER_URL=https://cuestionario.luc.uy/embed.js REACT_APP_CONVERSATION_ID=9ctb4fadft craco build",
     "test": "craco test",
     "eject": "react-scripts eject"
   },

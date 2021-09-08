@@ -2,14 +2,8 @@ import "./App.css";
 import Polis from "./Polis";
 import { v4 as uuidv4 } from "uuid";
 import { useEffect, useState } from "react";
-import LoginButton from "./LoginButton";
-import AuthenticationButton from "./AuthButton";
-import Profile from "./Profile";
-import { useAuth0 } from "@auth0/auth0-react";
 
 function App() {
-  const { user, isAuthenticated, isLoading } = useAuth0();
-
   const [userUuid, setUserUuid] = useState(undefined);
   const [statusOk, setStatusOk] = useState(false);
   const [title, setTitle] = useState("");
@@ -46,16 +40,7 @@ function App() {
 
   return (
     <div className="App">
-      <header>
-        {isAuthenticated && (
-          <div>
-            <img src={user.picture} alt={user.name} />
-            <h2>{user.name}</h2>
-            <p>{user.email}</p>
-          </div>
-        )}
-      </header>
-      <AuthenticationButton />
+      <header></header>
       <div>
         <Polis uuid={userUuid} />
       </div>
