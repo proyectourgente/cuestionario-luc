@@ -10,16 +10,12 @@ services:
     networks:
       - traefik_proxy
     labels:
-      - "traefik.http.routers.luc-uy.rule=Host(`luc.uy`)"
+      - "traefik.http.routers.luc-uy.rule=Host(`test.luc.uy`)"
       - "traefik.http.routers.luc-uy.tls=true"
       - "traefik.http.routers.luc-uy.tls.certresolver=le"
       - "traefik.http.services.luc-uy.loadbalancer.server.port=8080"
       - "traefik.enable=true"
     restart: on-failure:5
-    environment:
-      - REACT_APP_API_URL=https://pes-core-pes-dev.cloudtest.imm.gub.uy/api-frontend
-      - REACT_APP_USERS_URL=https://pes-core-pes-dev.cloudtest.imm.gub.uy/users
-      - REACT_APP_CELERY_FLOWR_API_URL=https://pes-core-pes-dev.cloudtest.imm.gub.uy/api-frontend/flower
 
 
 

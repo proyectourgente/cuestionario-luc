@@ -1,6 +1,10 @@
+import React from "react";
+import SEO from "./SEO";
+
 const Header = () => {
   return (
     <header className="header-2">
+     <SEO/>
       <nav className="bg-white py-2 md:py-4">
         <div className="container px-4 mx-auto md:flex md:items-center">
           <div className="flex justify-between items-center">
@@ -35,7 +39,7 @@ const Header = () => {
               href="#"
               className="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
             >
-              Quiénes Somos
+              ¿Quiénes Somos?
             </a>
           </div>
         </div>
