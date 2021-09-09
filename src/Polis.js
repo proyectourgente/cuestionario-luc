@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import loadPolis from "./loadPolis";
 
 
-const Polis = ({ uuid }) => {
+const Polis = ({ uuid, visible }) => {
 
   const [loaded, setLoaded] = useState(false);
 
@@ -23,9 +23,10 @@ const Polis = ({ uuid }) => {
     <div>
       <div
         id="polisDiv"
-        className="polis"
         data-conversation_id={conversationId}
         data-xid={uuid}
+        className={visible && loaded ? "polis visible" : "polis hidden"}
+        data-border={0}
       ></div>
     </div>
   );

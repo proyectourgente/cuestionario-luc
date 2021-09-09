@@ -2,6 +2,8 @@ import "./App.css";
 import Polis from "./Polis";
 import { v4 as uuidv4 } from "uuid";
 import { useEffect, useState } from "react";
+import Question from "./Question";
+import Header from "./Header";
 
 function App() {
   const [userUuid, setUserUuid] = useState(undefined);
@@ -10,6 +12,7 @@ function App() {
   const [description, setDescription] = useState("");
   const [created, setCreated] = useState("");
   const [id, setId] = useState("");
+  const [answer, setAnswer] = useState(localStorage.polisUserAnswer);
 
   useEffect(() => {
     if (localStorage.polisUserXID) {
@@ -38,11 +41,20 @@ function App() {
     );
   }, []);
 
+  useEffect(() => {
+    if (answer) {
+      console.log("Assigning new polisUserAnswer:", answer);
+      localStorage.polisUserAnswer = answer;
+    }
+    
+  }, [answer]);
+
   return (
     <div className="App">
-      <header></header>
+      <Header/>
       <div>
-        <Polis uuid={userUuid} />
+        {(answer === undefined) && <Question setAnswer={setAnswer}/>}
+        <Polis uuid={userUuid} visible={answer !== undefined} />
       </div>
     </div>
   );
