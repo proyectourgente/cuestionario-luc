@@ -16,8 +16,8 @@
     "xid-js": "^1.0.1"
   },
   "scripts": {
-    "start": "REACT_APP_LOADER_URL=https://cuestionario.luc.com.uy/embed.js REACT_APP_CONVERSATION_ID=9ctb4fadft craco start",
-    "build": "REACT_APP_LOADER_URL=https://cuestionario.luc.com.uy/embed.js REACT_APP_CONVERSATION_ID=4j2c2pfca5 craco build",
+    "start": "REACT_APP_LOADER_URL=https://cuestionario.luc.com.uy/embed.js REACT_APP_CONVERSATION_ID=luc craco start",
+    "build": "REACT_APP_LOADER_URL=https://cuestionario.luc.com.uy/embed.js REACT_APP_CONVERSATION_ID=luc craco build",
     "test": "craco test",
     "eject": "react-scripts eject"
   },
