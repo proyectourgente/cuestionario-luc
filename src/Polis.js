@@ -23,8 +23,8 @@ const Polis = ({ uuid, visible }) => {
     <div>
       <div
         id="polisDiv"
-        data-conversation_id={conversationId}
-        data-xid={uuid}
+        data-page_id='luc'
+        data-site_id='polis_site_id_Bo4TQ5RdT85PRGv0e1'
         className={visible && loaded ? "polis visible" : "polis hidden"}
         data-border={0}
       ></div>

@@ -51,12 +51,10 @@ function App() {
 
   return (
     <div className="App">
-      <Header/>
-      <div>
-        {(answer === undefined) && <Question setAnswer={setAnswer}/>}
+  
         <Polis uuid={userUuid} visible={answer !== undefined} />
       </div>
-    </div>
+    
   );
 }
 
