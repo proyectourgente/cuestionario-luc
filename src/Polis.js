@@ -26,6 +26,7 @@ const Polis = ({}) => {
           id="polisDiv"
           data-page_id="luc"
           data-site_id="polis_site_id_Bo4TQ5RdT85PRGv0e1"
+          data-parent_url="https://test.luc.com.uy/"
           className={"polis"}
           data-border={0}
         ></div>
