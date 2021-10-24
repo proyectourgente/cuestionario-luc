@@ -1,10 +1,10 @@
 import React from "react";
 import SEO from "./SEO";
 
-const Header = () => {
+const Header = ({site}) => {
   return (
     <header className="header-2">
-     <SEO/>
+     <SEO site={site}/>
       <nav className="bg-white py-2 md:py-4">
         <div className="container px-4 mx-auto md:flex md:items-center">
           <div className="flex justify-between items-center">

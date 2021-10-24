@@ -1,10 +1,10 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 
-const SEO = () => {
+const SEO = ({site}) => {
 
   const title = "Cuestionario LUC";
-  const url = "https://test.luc.uy";
+  const url = site;
   const description = "¿Qué pensas de la LUC? ¿Qué piensa el resto?";
 
 

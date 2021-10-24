@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 
-const Polis = ({}) => {
+const Polis = ({urlLoader, pageId, siteId, site}) => {
   const [loaded, setLoaded] = useState(false);
+  console.log(urlLoader, pageId, siteId, site);
 
-  const urlLoader = process.env.REACT_APP_LOADER_URL;
-  const conversationId = process.env.REACT_APP_CONVERSATION_ID;
+  
 
   useEffect(() => {
     const script = document.createElement("script");
@@ -24,9 +24,9 @@ const Polis = ({}) => {
       {loaded && (
         <div
           id="polisDiv"
-          data-page_id="luc"
-          data-site_id="polis_site_id_Bo4TQ5RdT85PRGv0e1"
-          data-parent_url="https://test.luc.com.uy/"
+          data-page_id={pageId}
+          data-site_id={siteId}
+          data-parent_url={site}
           className={"polis"}
           data-border={0}
         ></div>
