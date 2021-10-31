@@ -1,6 +1,5 @@
 import "./App.css";
 import Polis from "./Polis";
-import SEO from "./SEO";
 import useGaTracker from "./useGATracker";
 
 function App() {
@@ -13,7 +12,6 @@ function App() {
 
   return (
     <div className="App">
-      <SEO  site={site} />
       <Polis
         urlLoader={polisEmbedUrl}
         pageId={polisPageId}
