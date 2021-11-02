@@ -19,19 +19,19 @@ const Polis = ({urlLoader, pageId, siteId, site}) => {
   },[]);
 
   return (
-    <div>
-      {!loaded && <div>Loading...</div>}
+    <main className="flex-auto">
+      {!loaded && <div>Cargando...</div>}
       {loaded && (
         <div
           id="polisDiv"
           data-page_id={pageId}
           data-site_id={siteId}
           data-parent_url={site}
-          className={"polis"}
+          className={"polis pb-10"}
           data-border={0}
         ></div>
       )}
-    </div>
+    </main>
   );
 };
 
