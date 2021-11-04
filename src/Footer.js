@@ -6,8 +6,8 @@ const Footer = ({ site }) => {
   const [isOpen, setIsOpen] = React.useState(false);
 
   return (
-    <footer className={"fixed bottom-0 w-full pt-10 shadow-sm"}>
-      <nav className="bg-polisBlue py-2 md:py-3">
+    <footer className={"fixed bottom-0 w-full mt-5 shadow-sm"}>
+      <nav className="bg-polisBlue py-3 md:py-3">
         <div className="container px-4 mx-auto md:flex md:items-center text-sm md:text-md lg:text-lg">
           <div className="flex justify-around items-center">
             <Link to="/" className="font-black text-white md:mr-5">
@@ -52,7 +52,7 @@ const Footer = ({ site }) => {
               ¿Quiénes Somos?
             </Link>
             <Link
-              to="/datos"
+              to="/privacidad"
               className="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
             >
               Privacidad y Datos
