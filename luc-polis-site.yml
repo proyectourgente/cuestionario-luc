@@ -10,10 +10,13 @@ services:
     networks:
       - traefik_proxy
     labels:
-      - "traefik.http.routers.luc-uy.rule=Host(`test.luc.com.uy`)"
+      - "traefik.http.routers.luc-uy.rule=Host(`test.luc.com.uy`,`test.luc.uy`,`www.test.luc.com.uy`,`www.test.luc.uy`)"
       - "traefik.http.routers.luc-uy.tls=true"
       - "traefik.http.routers.luc-uy.tls.certresolver=le"
       - "traefik.http.services.luc-uy.loadbalancer.server.port=8080"
+      - "traefik.http.middlewares.luc-uy.redirectregex.regex=^https?://(www.)?test.luc.uy/(.*)"
+      - "traefik.http.middlewares.luc-uy.redirectregex.replacement=https://test.luc.com.uy/$${2}"
+      - "traefik.http.middlewares.luc-uy.redirectregex.permanent=true"
       - "traefik.enable=true"
     restart: on-failure:5
 
