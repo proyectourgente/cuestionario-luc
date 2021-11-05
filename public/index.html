@@ -5,36 +5,36 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <title>¿Y vos qué pensas?</title>
+    <title>y vos, ¿QUÉ PENSÁS?</title>
     <meta
       name="description"
-      content="Más allá del SI o NO, ¿vos que pensas sobre la LUC? Respondé el cuestionario y fijate donde te ubicás"
+      content="y vos, ¿QUÉ PENSÁS? Te invitamos a responder estas preguntas y al finalizar vas a poder conocer en qué grupo de opinión estás."
     />
 
     <!-- Google / Search Engine Tags -->
-    <meta itemprop="name" content="¿Y vos qué pensas?" />
+    <meta itemprop="name" content="y vos, ¿QUÉ PENSÁS?" />
     <meta
       itemprop="description"
-      content="Más allá del SI o NO, ¿vos que pensas sobre la LUC? Respondé el cuestionario y fijate donde te ubicás"
+      content="y vos, ¿QUÉ PENSÁS? Te invitamos a responder estas preguntas y al finalizar vas a poder conocer en qué grupo de opinión estás."
     />
     <meta itemprop="image" content="https://test.luc.com.uy/logo192.png" />
 
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="https://test.luc.com.uy" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="¿Y vos qué pensas?" />
+    <meta property="og:title" content="y vos, ¿QUÉ PENSÁS?" />
     <meta
       property="og:description"
-      content="Más allá del SI o NO, ¿vos que pensas sobre la LUC? Respondé el cuestionario y fijate donde te ubicás"
+      content="y vos, ¿QUÉ PENSÁS? Te invitamos a responder estas preguntas y al finalizar vas a poder conocer en qué grupo de opinión estás."
     />
     <meta property="og:image" content="https://test.luc.com.uy/logo192.png" />
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="¿Y vos qué pensas?" />
+    <meta name="twitter:title" content="y vos, ¿QUÉ PENSÁS?" />
     <meta
       name="twitter:description"
-      content="Más allá del SI o NO, ¿vos que pensas sobre la LUC? Respondé el cuestionario y fijate donde te ubicás"
+      content="y vos, ¿QUÉ PENSÁS? Te invitamos a responder estas preguntas y al finalizar vas a poder conocer en qué grupo de opinión estás."
     />
     <meta name="twitter:image" content="https://test.luc.com.uy/logo192.png" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
@@ -52,8 +52,11 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>¿Y vos qué pensas?</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>y vos, ¿QUÉ PENSÁS?</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -68,5 +71,24 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker.register("serviceWorker.js").then(
+            function (registration) {
+              // Registration was successful
+              console.log(
+                "ServiceWorker registration successful with scope: ",
+                registration.scope
+              );
+            },
+            function (err) {
+              // registration failed :(
+              console.log("ServiceWorker registration failed: ", err);
+            }
+          );
+        });
+      }
+    </script>
   </body>
 </html>

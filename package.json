@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "REACT_APP_POLIS_PAGE_ID=luc REACT_APP_SITE=https://test.luc.com.uy REACT_APP_POLIS_SITE=polis_site_id_oEvATq5YMQKHHloOJE REACT_APP_GOOGLE_GA=kkk REACT_APP_LOADER_URL=https://cuestionario.luc.com.uy/embed.js craco start",
-    "build": "REACT_APP_POLIS_PAGE_ID=luc REACT_APP_SITE=https://test.luc.com.uy REACT_APP_POLIS_SITE=polis_site_id_oEvATq5YMQKHHloOJE REACT_APP_GOOGLE_GA=kkk REACT_APP_LOADER_URL=https://cuestionario.luc.com.uy/embed.js craco build",
+    "build": "REACT_APP_POLIS_PAGE_ID=luc REACT_APP_SITE=https://test.luc.com.uy REACT_APP_POLIS_SITE=polis_site_id_oEvATq5YMQKHHloOJE REACT_APP_GOOGLE_GA=G-4DEQV5CNQT REACT_APP_LOADER_URL=https://cuestionario.luc.com.uy/embed.js craco build",
     "test": "craco test",
     "eject": "react-scripts eject"
   },

@@ -21,7 +21,7 @@ const Polis = ({ urlLoader, pageId, siteId, site }) => {
       <div className="p-5 flex flex-col w-full">
         <h1 className="w-full text-center text-polisBlue text-4xl flex flex-col">
           <span>y vos, </span>
-          <span className="font-black mt-1">¿QUÉ PENSAS?</span>
+          <span className="font-black mt-1">¿QUÉ PENSÁS?</span>
         </h1>
         <h2 className="pt-3 text-center text-gray-600">Te invitamos a responder estas preguntas y al finalizar vas a poder conocer en qué grupo de opinión estás.</h2>
       </div>

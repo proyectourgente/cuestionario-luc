@@ -11,11 +11,11 @@ const Footer = ({ site }) => {
         <div className="container px-4 mx-auto md:flex md:items-center text-sm md:text-md lg:text-lg">
           <div className="flex justify-around items-center">
             <Link to="/" className="font-black text-white md:mr-5">
-              <span className="font-regular">luc.com.uy</span>
+              <span className="font-bold">luc.com.uy</span>
             </Link>
 
-            <Link to="/" className="font-black text-white">
-              <span> Y VOS, ¿QUÉ PENSAS?</span>
+            <Link to="/" className="text-white">
+              <span>y vos,</span><span className="font-black"> ¿QUÉ PENSÁS?</span>
             </Link>
             <button
               onClick={() => setIsOpen(!isOpen)}
