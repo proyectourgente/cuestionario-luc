@@ -2,7 +2,7 @@ import "./App.css";
 
 function What() {
   return (
-    <div className="p-10 flex flex-col max-w-2xl mx-auto">
+    <div className="p-10 mt-10 md:mt-16 flex flex-col max-w-2xl mx-auto">
       <h1 className="font-black text-3xl text-polisBlue">¿Cómo Funciona?</h1>
 
       <div>

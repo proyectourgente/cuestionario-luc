@@ -2,7 +2,7 @@ import "./App.css";
 
 function Who() {
   return (
-    <div className="p-10 flex flex-col max-w-2xl mx-auto">
+    <div className="p-10 mt-10 md:mt-16 flex flex-col max-w-2xl mx-auto">
       <h1 className="font-black text-3xl text-polisBlue">¿Quiénes Somos?</h1>
       <h2 className="py-5 font-bold text-xl text-polisBlue">Proyecto Urgente</h2>
       <div>
