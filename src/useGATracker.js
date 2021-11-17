@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import ReactGA from "react-ga";
 
-const trackerCode = process.env.REACT_APP_GOOGLE_GA;
 
 const useGaTracker = () => {
     const location = useLocation();
@@ -10,7 +9,7 @@ const useGaTracker = () => {
 
     useEffect(() => {
         if (!window.location.href.includes("localhost")) {
-        ReactGA.initialize(trackerCode);
+        ReactGA.initialize("G-4DEQV5CNQT");
         }
         setInitialized(true);
     }, []);
