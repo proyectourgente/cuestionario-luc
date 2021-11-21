@@ -1,4 +1,5 @@
-let CACHE_NAME = "my-site-cache-v1";
+let CACHE_NAME = "my-site-cache-v2";
+
 const urlsToCache = ["/", "/index.html"];
 self.addEventListener("install", function (event) {
   // Perform install steps
