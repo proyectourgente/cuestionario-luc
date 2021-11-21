@@ -1,67 +1,33 @@
 import React from "react";
-import { FaBars } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { GiClick } from "react-icons/gi";
 
-const Footer = ({ site }) => {
-  const [isOpen, setIsOpen] = React.useState(false);
-
+function Footer() {
   return (
-    <footer className={"fixed bottom-0 w-full mt-5 shadow-sm"}>
-      <nav className="bg-polisBlue py-3 md:py-3">
-        <div className="container px-4 mx-auto md:flex md:items-center text-sm md:text-md lg:text-lg">
-          <div className="flex justify-around items-center">
-            <Link to="/" className="font-black text-white md:mr-5">
-              <span className="font-bold">luc.com.uy</span>
-            </Link>
-
-            <Link to="/" className="text-white">
-              <span>y vos,</span><span className="font-black"> ¿QUÉ PENSÁS?</span>
-            </Link>
-            <button
-              onClick={() => setIsOpen(!isOpen)}
-              className="border border-solid border-white px-3 py-1 rounded text-white opacity-50 hover:opacity-75 md:hidden"
-              id="navbar-toggle"
-            >
-              <FaBars />
-            </button>
-          </div>
-
-          <div
-            className={
-              "md:flex flex-col md:flex-row md:ml-auto mt-3 md:mt-0 text-center " +
-              (isOpen ? " flex" : " hidden")
-            }
-            id="navbar-collapse"
-          >
-            <Link
-              to="/articulos"
-              className="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
-            >
-              Artículos la LUC
-            </Link>
-            <Link
-              to="/como"
-              className="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
-            >
-              ¿Cómo Funciona?
-            </Link>
-            <Link
-              to="/quienes"
-              className="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
-            >
-              ¿Quiénes Somos?
-            </Link>
-            <Link
-              to="/privacidad"
-              className="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
-            >
-              Privacidad y Datos
-            </Link>
+    <footer className="mt-10 bg-polisBlue text-white font-book">
+      <a className="no-underline text-white " href="https://articulos.luc.com.uy">
+        <div className="mx-auto p-5 w-100 font-sans text-center flex flex-col md:flex-row justify-center align-middle">
+          <h1 className="text-center text-white font-black text-xl md:text-2xl justify-center flex align-middle">
+            <span className="mr-2">LUC</span>
+            <span>Comparada</span>
+            <GiClick className="mx-2 text-2xl mt-1 animate-bounce" />
+          </h1>
+          <div className="flex flex-col md:flex-row items-center mt-3 md:mt-0 text-sm md:text-lg font-sans font-medium text-center ">
+            <span className="mx-auto">
+              Informate de los cambios introducidos por la LUC palabra por palabra
+            </span>
           </div>
         </div>
-      </nav>
+      </a>
     </footer>
   );
-};
+}
+
+/*Footer.propTypes = {
+    siteTitle: PropTypes.string,
+}
+
+Footer.defaultProps = {
+    siteTitle: ``,
+}*/
 
 export default Footer;

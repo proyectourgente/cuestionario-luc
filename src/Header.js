@@ -32,13 +32,6 @@ const Header = ({ site }) => {
             id="navbar-collapse"
           >
             <Link
-              to="/articulos"
-              onClick={() => setIsOpen(false)}
-              className="p-2 lg:px-4 md:mx-2  rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
-            >
-              Artículos la LUC
-            </Link>
-            <Link
               to="/como"
               onClick={() => setIsOpen(false)}
               className="p-2 lg:px-4 md:mx-2  rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
