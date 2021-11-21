@@ -1,6 +1,6 @@
-let CACHE_NAME = "my-site-cache-v2";
+let CACHE_NAME = "my-site-cache-v1";
 
-const urlsToCache = ["/"];
+const urlsToCache = ["/", "/index.html"];
 self.addEventListener("install", function (event) {
   // Perform install steps
   event.waitUntil(
@@ -38,9 +38,7 @@ self.addEventListener('activate', function(event) {
     caches.keys().then(function(cacheNames) {
       return Promise.all(
         cacheNames.filter(function(cacheName) {
-          // Return true if you want to remove this cache,
-          // but remember that caches are shared across
-          // the whole origin
+          return true;
         }).map(function(cacheName) {
           return caches.delete(cacheName);
         })
