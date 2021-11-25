@@ -2,7 +2,7 @@ import "./App.css";
 
 function Who() {
   return (
-    <div className="p-10 mt-10 md:mt-16 flex flex-col max-w-2xl mx-auto">
+    <div className="p-10 mt-10 md:mt-16 flex flex-col max-w-2xl mx-auto flex-grow">
       <h1 className="font-black text-3xl text-polisBlue">¿Quiénes Somos?</h1>
       <h2 className="py-5 font-bold text-xl text-polisBlue">Proyecto Urgente</h2>
       <div>
@@ -25,9 +25,19 @@ function Who() {
         en un debate que nos afecta a todas y todos.
       </p>
       </div>
-      <h2 className="py-5 font-bold text-xl text-polisBlue">Nosotros</h2>
+      <h2 className="pt-5 pb-3 font-bold text-xl text-polisBlue">Nosotros</h2>
       <ul>
-        <li className="my-2">Nombre 1</li>
+        <li className="my-2">Cecilia Passalacqua</li>
+        <li className="my-2">Cristian Callero</li>
+        <li className="my-2">Damián Pintos</li>
+        <li className="my-2">Ivana Otero</li>
+        <li className="my-2">Lorena Etcheverry</li>
+        <li className="my-2">Marcelo Fiori</li>
+        <li className="my-2">Matías Rodales</li>
+        <li className="my-2">Raúl Speroni</li>
+        <li className="my-2">Sebastián Aguiar</li>
+        <li className="my-2">Sebastián Gadea</li>
+        <li className="my-2">Verónica Nin</li>
       </ul>
     </div>
   );
