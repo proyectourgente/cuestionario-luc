@@ -18,9 +18,9 @@
     "xid-js": "^1.0.1"
   },
   "scripts": {
-    "start": "REACT_APP_POLIS_PAGE_ID=luc REACT_APP_SITE=https://test.luc.com.uy REACT_APP_POLIS_SITE=polis_site_id_oEvATq5YMQKHHloOJE REACT_APP_LOADER_URL=https://cuestionario.luc.com.uy/embed.js craco start",
-    "build": "REACT_APP_POLIS_PAGE_ID=luc_stag REACT_APP_SITE=https://test.luc.com.uy REACT_APP_POLIS_SITE=polis_site_id_oEvATq5YMQKHHloOJE REACT_APP_LOADER_URL=https://cuestionario.luc.com.uy/embed.js craco build",
-    "build-prod": "REACT_APP_POLIS_PAGE_ID=luc_prod_v1 REACT_APP_SITE=https://luc.com.uy REACT_APP_POLIS_SITE=polis_site_id_oEvATq5YMQKHHloOJE REACT_APP_LOADER_URL=https://cuestionario.luc.com.uy/embed.js craco build",
+    "start": "REACT_APP_GA=disabled REACT_APP_POLIS_PAGE_ID=luc REACT_APP_SITE=https://test.luc.com.uy REACT_APP_POLIS_SITE=polis_site_id_oEvATq5YMQKHHloOJE REACT_APP_LOADER_URL=https://cuestionario.luc.com.uy/embed.js craco start",
+    "build": "REACT_APP_GA=G-4DEQV5CNQT REACT_APP_POLIS_PAGE_ID=luc_stag REACT_APP_SITE=https://test.luc.com.uy REACT_APP_POLIS_SITE=polis_site_id_oEvATq5YMQKHHloOJE REACT_APP_LOADER_URL=https://cuestionario.luc.com.uy/embed.js craco build",
+    "build-prod": "REACT_APP_GA=G-2PRRGND5MW REACT_APP_POLIS_PAGE_ID=luc_prod_v1 REACT_APP_SITE=https://luc.com.uy REACT_APP_POLIS_SITE=polis_site_id_oEvATq5YMQKHHloOJE REACT_APP_LOADER_URL=https://cuestionario.luc.com.uy/embed.js craco build",
     "test": "craco test",
     "eject": "react-scripts eject"
   },
