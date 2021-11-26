@@ -14,7 +14,7 @@ WORKDIR /opt/app
 
 COPY . .
 
-RUN npm run-script build
+RUN npm run-script build-prod
 
 
 ### STAGE 2: Setup ###
