@@ -3,9 +3,9 @@ import { Helmet } from "react-helmet";
 
 const SEO = ({site}) => {
 
-  const title = "Cuestionario LUC";
+  const title = "y vos, ¿Qué Pensás?";
   const url = site;
-  const description = "¿Qué pensas de la LUC? ¿Qué piensa el resto?";
+  const description = "Opiná sobre algunos comentarios y averiguá en qué grupo de opinión estás.";
 
 
   return (

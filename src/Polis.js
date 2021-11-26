@@ -23,7 +23,7 @@ const Polis = ({ urlLoader, pageId, siteId, site }) => {
           <span className="mr-2">y vos, </span>
           <span className="font-black mt-1">¿QUÉ PENSÁS?</span>
         </h1>
-        <h2 className="pt-3 text-center text-gray-600">Respondé algunas preguntas sobre la LUC y descubrí en qué grupo de opinión estás.</h2>
+        <h2 className="pt-3 text-center text-gray-600">Opiná sobre algunos comentarios sobre la LUC y descubrí en qué grupo de opinión estás.</h2>
       </div>
       {!loaded && <div>Cargando...</div>}
       {loaded && (
