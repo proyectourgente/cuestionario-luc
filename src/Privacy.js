@@ -11,7 +11,7 @@ function Privacy() {
           facebook o twitter.{" "}
         </p>
         <p className="my-2">
-          Cuando una persoba se loguea con redes sociales Pol.is almacena
+          Cuando una persona se loguea con redes sociales Pol.is almacena
           algunos datos como el correo electrónico o el nombre.{" "}
         </p>
         <p className="my-2">
