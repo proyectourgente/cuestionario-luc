@@ -10,7 +10,7 @@ function Who() {
       <p className="my-2">
         Somos un grupo de mujeres y hombres del ámbito académico y profesional
         que buscan aplicar ciencia y tecnología al debate público con acciones
-        que sin ser urgentes, nos parecen importantes.
+        que nos parecen importantes.
       </p>
       <p className="my-2">
         La primera iniciativa del grupo fue disponibilizar un sitio web que
@@ -33,6 +33,7 @@ function Who() {
         <li className="my-2">Ivana Otero</li>
         <li className="my-2">Lorena Etcheverry</li>
         <li className="my-2">Marcelo Fiori</li>
+        <li className="my-2">Matías Fernández</li>
         <li className="my-2">Matías Rodales</li>
         <li className="my-2">Raúl Speroni</li>
         <li className="my-2">Sebastián Aguiar</li>

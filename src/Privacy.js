@@ -11,8 +11,8 @@ function Privacy() {
           facebook o twitter.{" "}
         </p>
         <p className="my-2">
-          Cuando un usuario se loguea con redes sociales Pol.is almacena algunos
-          datos como el correo electrónico o el nombre de usuario.{" "}
+          Cuando una persoba se loguea con redes sociales Pol.is almacena
+          algunos datos como el correo electrónico o el nombre.{" "}
         </p>
         <p className="my-2">
           Cuándo los usuarios responden de forma anónima se guardan en la sesión
@@ -24,8 +24,8 @@ function Privacy() {
         </p>
         <p className="my-2">
           {" "}
-          La forma más segura y privada de contestar este cuestionario es desde
-          una pestaña de incógnito.
+          Contestar este cuestionario en una ventana de incógnito maximiza la
+          privacidad de las personas.
         </p>
         <p className="my-2">
           Uno de los objetivos de este proyecto es el de disponibilizar, como
@@ -35,9 +35,8 @@ function Privacy() {
         </p>
         <p className="my-2">
           En todos los casos, cualquier información que se haga pública, ya sean
-          visualizaciones, análisis o datos en crudo será disociada de la
-          información de los participantes, aún si estos usaron redes sociales
-          para responder.
+          visualizaciones, análisis o datos en crudo, se mantendrá la anonimidad
+          de los y las participantes, aún si usaron redes sociales para responder.
         </p>
       </div>
     </div>
