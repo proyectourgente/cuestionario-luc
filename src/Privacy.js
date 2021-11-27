@@ -29,14 +29,14 @@ function Privacy() {
         </p>
         <p className="my-2">
           Uno de los objetivos de este proyecto es el de disponibilizar, como
-          datos abiertos, la matriz de opiniones para permitir que la comunidad
-          realice análisis de estos datos, más allá de las visualizaciones que
-          se presentan en el sitio web.{" "}
+          datos abiertos, la matriz de opiniones para permitir que quien tenga
+          interés pueda acceder a ella.{" "}
         </p>
         <p className="my-2">
           En todos los casos, cualquier información que se haga pública, ya sean
           visualizaciones, análisis o datos en crudo, se mantendrá la anonimidad
-          de los y las participantes, aún si usaron redes sociales para responder.
+          de los y las participantes, aún si usaron redes sociales para
+          responder.
         </p>
       </div>
     </div>
