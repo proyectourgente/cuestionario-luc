@@ -3,7 +3,7 @@ import { GiClick } from "react-icons/gi";
 
 function Footer() {
   return (
-    <footer className="bg-polisBlue text-white font-book">
+    <footer className="bg-gradient-to-b to-rosado from-azul  font-book">
       <a className="no-underline text-white " href="https://articulos.luc.com.uy">
         <div className="mx-auto p-5 w-100 font-sans text-center flex flex-col md:flex-row justify-center align-middle">
           <h1 className="text-center text-white font-black text-xl md:text-2xl justify-center flex align-middle">
