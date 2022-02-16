@@ -1,0 +1,28 @@
+version: '3.3'
+
+services:
+  luc-uy-prodc:
+    build:
+      context: .
+      dockerfile: Dockerfile.prodc
+    image: democraciauy/lucuyprodc
+    ports:
+      - "8080"
+    networks:
+      - traefik_proxy
+    labels:
+      - "traefik.http.routers.luc-uy-prodc.rule=Host(`c.luc.com.uy`,`c.luc.uy`,`www.c.luc.com.uy`,`www.c.luc.uy`)"
+      - "traefik.http.routers.luc-uy-prodc.tls=true"
+      - "traefik.http.routers.luc-uy-prodc.tls.certresolver=le"
+      - "traefik.http.services.luc-uy-prodc.loadbalancer.server.port=8080"
+      - "traefik.http.middlewares.luc-uy-prodc.redirectregex.regex=^https?://(www.)?c.luc.uy/(.*)"
+      - "traefik.http.middlewares.luc-uy-prodc.redirectregex.replacement=https://c.luc.com.uy/$${2}"
+      - "traefik.http.middlewares.luc-uy-prodc.redirectregex.permanent=true"
+      - "traefik.enable=true"
+    restart: on-failure:5
+
+
+
+networks:
+  traefik_proxy:
+    external: true
