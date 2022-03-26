@@ -7,32 +7,37 @@ convs = {
     5: {
         'desc': 'Publico General',
         'short': 'pg',
-        'site': 'luc.com.uy'
+        'site': 'luc.com.uy',
+        'file': 'lucprodv2-5.zip'
     },
     6: {
         'desc': 'Jóvenes Interior',
         'short': 'a',
-        'site': 'a.luc.com.uy'
+        'site': 'a.luc.com.uy',
+        'file': 'lucprodv2-6.zip'
     },
     7: {
         'desc': 'Jóvenes Área Metropolitana',
         'short': 'b',
-        'site': 'b.luc.com.uy'
+        'site': 'b.luc.com.uy',
+        'file': 'lucprodv2-7.zip'
     },
     8: {
         'desc': 'Adultos y Mayores Interior',
         'short': 'c',
-        'site': 'c.luc.com.uy'
+        'site': 'c.luc.com.uy',
+        'file': 'lucprodv2-8.zip'
     },
     9: {
         'desc': 'Adultos y Mayores Área Metropolitana',
         'short': 'd',
-        'site': 'd.luc.com.uy'
+        'site': 'd.luc.com.uy',
+        'file': 'lucprodv2-9.zip'
     }
 }
 ```
 
-En `comments.csv`, `participants_votes.csv`, `votes.csv` se consolida la información de todas las conversaciones -que comparten la mayoría de los enunciados-. También se encuentran disponibles, en cada una de las carpetas, los datos en bruto para cada conversación por separado.
+En `comments.csv`, `participants_votes.csv`, `votes.csv` se consolida la información de todas las conversaciones -que comparten la mayoría de los enunciados-. También se encuentran disponibles, en cada una de los archivos comprimidos, los datos en bruto para cada conversación por separado.
 
 En `comments.csv` se listan los enunciados que fueron utilizados en los cuestionarios. A medida que pasaron las semanas, algunos enunciados se desactivaron (mod=-1) y se agregaron nuevos activos (mod=1). Cada enunciado pertenece a una categoría (category), y algunos de ellos son metadatos (enunciados de control que fueron mostrados a los participantes más frecuentemente que el resto).
 
