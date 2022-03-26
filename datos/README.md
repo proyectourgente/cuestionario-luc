@@ -1,6 +1,11 @@
 ## Datos Abiertos
 
-Entre Diciembre del 2021 y Marzo del 2022 se disponibilizaron 5 cuestionarios, o conversaciones, referentes a la LUC. Una de las conversaciones, que cuenta con la mayor cantidad de participantes, recibió tráfico de origenes no especificados. Las demás fueron orientadas, mediante avisos, a ciertos públicos según se detalla a continuación:
+Entre Diciembre del 2021 y Marzo del 2022 se disponibilizaron 5 cuestionarios, o conversaciones, que concultaban sobre enunciados referentes a la LUC. Una de las conversaciones, que cuenta con la mayor cantidad de participantes, recibió tráfico de origenes no especificados. Las demás fueron orientadas, mediante avisos, a ciertos públicos según se detalla a continuación.
+
+El software utilizado para los cuestionario se basa en el proyecto open source Pol.is.
+
+Las opiniones de cada participante sobre cada enunciado se almacenaron en una matriz dispersa de opiniones. Decimos que la matriz es dispersa porque no fue obligatorio que cada participante opinara sobre todos los enunciados. Los enunciados fueron mostrados a los participantes en un modo pseudo aleatorio.
+
 
 ```
 convs = {
@@ -39,7 +44,7 @@ convs = {
 
 En `comments.csv`, `participants_votes.csv`, `votes.csv` se consolida la información de todas las conversaciones -que comparten la mayoría de los enunciados-. También se encuentran disponibles, en cada una de los archivos comprimidos, los datos en bruto para cada conversación por separado.
 
-En `comments.csv` se listan los enunciados que fueron utilizados en los cuestionarios. A medida que pasaron las semanas, algunos enunciados se desactivaron (mod=-1) y se agregaron nuevos activos (mod=1). Cada enunciado pertenece a una categoría (category), y algunos de ellos son metadatos (enunciados de control que fueron mostrados a los participantes más frecuentemente que el resto).
+En `comments.csv` se listan los enunciados que fueron utilizados en los cuestionarios. A medida que pasaron las semanas, algunos enunciados se desactivaron (`mod=-1`) y se agregaron nuevos activos (`mod=1`). Cada enunciado pertenece a una categoría (`category`), y algunos de ellos son metadatos (enunciados de control que fueron mostrados a los participantes más frecuentemente que el resto). La columna `side` establece la orientación del enunciado respecto al contenido de la LUC. El acuerdo con un enunciado marcado como "SI" implicaría (teóricamente y en general) el desacuerdo con el artículo relacionado de la LUC.
 
 En `participants_votes.csv` se encuentra la matriz de votos por participante. La primer columna tiene los identificadores de los participantes por conversación. La columna `conv` tiene el identificador de la conversación. Cada una de las columnas númericas hacen referencia a los enunciados identificados con `general-id`. Los valores de la matriz se identifican como sigue:
 
