@@ -1,0 +1,84 @@
+general-id,mod,is_meta,comment-body,side,category
+8,1,False,El Instituto de Colonización debería vender sus tierras para obtener recursos para el Estado,NO,AGROPECUARIO
+9,1,False,"Es importante exigir que las personas que tienen terrenos de Colonización vivan en el predio. De lo contrario, se facilita la corrupción",SI,AGROPECUARIO
+10,-1,False,La venta de tierras del Instituto de Colonización no es una buena idea porque afectará fuertemente la agricultura familiar,SI,AGROPECUARIO
+11,1,False,Los precios del combustible deben reflejar claramente el precio del petróleo y tender a eliminar los costos de ANCAP,NO,COMBUSTIBLES
+6,-1,False,"Un Juez de Familia no debería poder seleccionar una familia adoptante sin que pase por el proceso de selección de INAU, porque esto, entre otras cosas, eliminaría garantías para los niños",SI,ADOPCIONES
+2,-1,True,Firmé para habilitar el referéndum de los 135 artículos de la LUC,-,META
+3,-1,True,Mi entorno inmediato tiene bastante definido qué votará en el referéndum sobre los 135 artículos de la LUC,-,META
+4,1,True,Voy a votar por NO anular 135 artículos de la LUC en el referéndum,-,META
+7,-1,False,Exigir que las personas que tienen terrenos de Colonización vivan en ese predio no es algo importante,NO,AGROPECUARIO
+12,1,False,Los precios del combustible no deberían estar fijados sólo por el costo del petróleo: también es importante que ANCAP se mantenga fuerte como empresa,SI,COMBUSTIBLES
+0,1,True,Voy a votar por SI anular 135 artículos de la LUC en el referéndum,-,META
+13,1,False,Eliminar la obligación de que los sueldos se paguen por medio de bancos facilita las prácticas ilegales y quita transparencia,SI,ECONOMÍA
+15,1,False,Que se permita pagar en efectivo operaciones o negocios hasta 100.000 dólares habilita prácticas ilegales y quita transparencia al sistema,SI,ECONOMÍA
+16,-1,False,Que se permita pagar operaciones o negocios de hasta 100.000 dólares en efectivo tendrá beneficios para la economía,NO,ECONOMÍA
+18,1,False,El Estado debería pagar a sus proveedores a través de bancos para garantizar la transparencia en el uso de los fondos públicos,SI,ECONOMÍA
+19,-1,False,El Ministerio de Economía debe asegurar con una regla fiscal que el gasto público sea bajo,NO,ECONOMÍA
+20,-1,False,"La inversión pública es un componente central de la economía, y no debería limitarse con una regla fiscal",SI,ECONOMÍA
+21,-1,False,Eliminar la obligatoriedad de la educación inicial es un retroceso para el sistema educativo,SI,EDUCACION
+22,-1,False,Eliminar la obligatoriedad de la educación inicial es una buena idea porque da más libertad a los padres,NO,EDUCACION
+24,-1,False,"Eliminar las orientaciones de los bachilleratos y simplificar las alternativas en educación media no responde a un diseño claro para la política educativa, genera un retroceso en derechos y oportunidades",SI,EDUCACION
+25,-1,False,En la educación formal la prioridad es lograr procesos educativos completos y continuos que fortalezcan la cultura general,SI,EDUCACION
+26,1,False,En la educación formal lo que más importa son las herramientas prácticas para la vida y la inserción laboral,NO,EDUCACION
+27,1,False,La educación media superior debe ser obligatoria para que no se deteriore aún más el sistema educativo,SI,EDUCACION
+28,-1,False,La educación media superior no debería ser obligatoria porque está bien que una persona elija trabajar en lugar de estudiar,NO,EDUCACION
+29,1,False,"La libertad de cátedra de los docentes debería limitarse para que se garantice ecuanimidad en el abordaje de los temas y un balance de los puntos de vista, respetando los planes de estudio",NO,EDUCACION
+30,1,False,La libertad de cátedra de los docentes no debe tener más condiciones que ser crítica y fundamentada y respetar los planes de estudio,SI,EDUCACION
+31,-1,False,"La educación técnico profesional debe ofrecerse sólo para mayores de 15 años. Es necesario que la educación sea básica, amplia y compartida hasta los 14 años, aunque esto limite en el corto plazo la capacidad de trabajar en oficios",SI,EDUCACION
+36,1,False,Los responsables de los menores no deberían estar obligados a inscribirlos al sistema educativo para disminuir la cantidad de trámites que deben realizar,NO,EDUCACION
+37,1,False,"Aumentar la pena por encubrimiento de delitos de drogas, rapiña, copamiento o secuestro está bien. Debe castigarse con mayor dureza",NO,SEGURIDAD
+38,1,False,Aumentar la condena para el encubrimiento de delitos no tiene mayores efectos en la seguridad y contribuye a la congestión de las cárceles,SI,SEGURIDAD
+40,-1,False,Considerar como delitos específicos el insulto o las amenazas a la policía da lugar a posibles excesos y limita la libertad de expresión,SI,SEGURIDAD
+41,1,False,"Considerar legítima defensa cuando un policía o militar repele una agresión física contra otras personas, desdibuja su función y puede dar lugar a arbitrariedades",SI,SEGURIDAD
+45,-1,False,Las personas en situación de calle deben ser retiradas de donde están inmediatamente si molestan y ser sancionadas si se niegan,NO,SEGURIDAD
+46,-1,False,Que la Policía pueda registrar a una persona aunque no tenga autorización judicial es bueno porque facilita las cosas y el accionar de la Policía,NO,SEGURIDAD
+49,1,False,"Quien abate a un individuo extraño sorprendido en su propiedad o establecimiento, como el jardín o el garaje, está ejerciendo legítima defensa y no debería ser castigado",NO,SEGURIDAD
+51,-1,False,"En una huelga u ocupación de una empresa, la dirección y los trabajadores deberían acatar la medida y no ingresar a trabajar",SI,TRABAJO
+33,-1,False,"No debería permitirse el ingreso a la educación terciaria si no se ha finalizado la educación media superior, incluso si se acreditan los saberes y competencias correspondientes",SI,EDUCACION
+39,1,False,"Es necesario considerar delitos específicos el insulto o las amenazas a la policía, para respaldar la autoridad policial",NO,SEGURIDAD
+35,1,False,Los responsables de los menores deberían estar obligados a inscribirlos al sistema educativo aunque esto implique destinar algo de tiempo a hacer trámites,SI,EDUCACION
+44,-1,False,"Sancionar a las personas en situación de calle, si no se retiran de donde están inmediatamente, vulnera sus derechos",SI,SEGURIDAD
+23,-1,False,Simplificar las orientaciones de los bachilleratos enfocándolas a enseñanzas solo técnicas hará más sencilla la integración al mundo laboral,NO,EDUCACION
+32,1,False,La educación técnico profesional debería habilitarse para menores de 15 años. Orientar a los estudiantes hacia los oficios lo más temprano posible es un beneficio para la sociedad,NO,EDUCACION
+47,1,False,Que la Policía pueda registrar a una persona sin autorización previa de un fiscal limita garantías de personas civiles y facilita abusos contra ellas,SI,SEGURIDAD
+48,-1,False,"La violencia contra un extraño que se descubra en jardines, azoteas, galpones, establecimientos comerciales y agrarios implica defender el derecho a la propiedad por sobre el de la vida, y contribuye a continuar en un espiral de violencia",SI,SEGURIDAD
+50,-1,False,Que las personas privadas de libertad reduzcan las condenas a través de estudio o trabajo no debería permitirse; si cometieron un delito grave deben cumplir la totalidad de la condena,NO,SEGURIDAD
+52,1,False,"Si el sindicato de una empresa resuelve una huelga u ocupación, quienes no están de acuerdo deberían poder ingresar a trabajar de cualquier forma",NO,TRABAJO
+54,-1,False,"El desalojo inmediato de personas o familias que se atrasan en el pago de su alquiler es una medida extrema, que debería ser tomada con cuidado y consideración en cada caso",SI,VIVIENDA
+1,1,True,Considero que tengo información suficiente para decidir en el referéndum,-,META
+43,1,False,"Permitir que las personas privadas de libertad reduzcan las condenas de prisión a través de estudio o trabajo incentiva la rehabilitación, contribuye a descongestionar las cárceles y permite el ejercicio de derechos",SI,SEGURIDAD
+14,-1,False,"La obligación de pagar los sueldos a través de bancos es un problema para los empleadores, que deberían poder decidir si prefieren pagar en efectivo",NO,ECONOMÍA
+53,1,False,"El atraso en el pago del alquiler debería permitir desalojar al inquilino inmediatamente, para que el propietario no sea perjudicado",NO,VIVIENDA
+55,-1,False,El Instituto de Colonización debería vender sus tierras porque no es eficiente,NO,AGROPECUARIO
+57,1,False,No debería permitirse que las personas privadas de libertad reduzcan las condenas a través de estudio o trabajo; si cometieron un delito grave deben cumplir la totalidad de la condena,NO,SEGURIDAD
+58,1,False,Debería permitirse que las personas privadas de libertad reduzcan las condenas a través de estudio o trabajo; si cometieron un delito grave pueden reducir condena mostrando buena conducta y aptitudes,SI,SEGURIDAD
+60,1,False,Que se habilite mantener el número de teléfono celular aunque se cambie de empresa es una mala idea porque debilitará a Antel frente a las demás empresas,SI,TELECOMUNICACIONES
+61,1,False,Poder mantener el número de teléfono celular aunque se cambie de empresa es una buena idea más allá del costo para Antel,NO,TELECOMUNICACIONES
+62,1,False,Poder mantener el número de teléfono celular aunque se cambie de empresa es un derecho,NO,TELECOMUNICACIONES
+63,-1,False,Está bien definir la educación terciaria como aquella que requiere como condición de ingreso haber finalizado la educación media superior o acreditar los saberes y competencias correspondientes. Puede o no ser de carácter universitario,SI,EDUCACION
+64,-1,False,No es necesario especificar en su definición a la educación terciaria como aquella que profundiza y amplía la formación en alguna rama del conocimiento,NO,EDUCACION
+65,-1,False,Exigir que las personas que tienen terrenos de Colonización vivan en ese predio no es algo importante y limita las libertades de esas personas,NO,AGROPECUARIO
+66,-1,False,Eliminar las orientaciones de los bachilleratos y simplificar las alternativas en educación media genera un retroceso en derechos y oportunidades especialmente para estudiantes de educación pública,SI,EDUCACION
+67,1,False,"La educación técnico-profesional debe ofrecerse sólo para mayores de 15 años. Es necesario que la educación sea básica, amplia y compartida hasta los 14 años",SI,EDUCACION
+68,1,False,"Sancionar a las personas en situación de calle si no se retiran de donde están inmediatamente, es violento e innecesario",SI,SEGURIDAD
+5,-1,False,"Un Juez de Familia debería poder resolver la selección de una familia para adoptar un niño, sin pasar por el proceso de selección de INAU porque esto agiliza el proceso de adopción",NO,ADOPCIONES
+34,-1,False,"Debería permitirse el ingreso a la educación terciaria si se acreditan los saberes y competencias correspondientes, aún sin haber finalizado la educación media superior",NO,EDUCACION
+42,-1,False,Cuando un policía o militar repele una agresión contra él o un tercero debería estar totalmente protegido por la ley más allá de lo que suceda,NO,SEGURIDAD
+56,-1,False,Es importante exigir que las personas que tienen terrenos de Colonización vivan en el predio. De lo contrario Colonización dejaría de tener sentido ya que no se seguiría aplicando su objetivo principal,SI,AGROPECUARIO
+59,-1,False,Permitir el ingreso a la educación terciaria a personas que no finalizaron la educación media superior es positivo porque permite validar saberes y competencias y que continúen su formación,NO,EDUCACION
+69,1,False,Es correcto que el Gobierno de turno tenga más potestades en la definición de políticas educativas y la formación de educadores,NO,EDUCACION
+70,-1,False,Es correcto que se limite la autonomía de la Udelar y UTEC quitándoles la potestad de revalidar títulos universitarios,NO,EDUCACION
+71,1,False,La participación de los docentes en la definición de la política educativa dificulta llevar adelante los cambios que la educación necesita,NO,EDUCACION
+72,1,False,Habilitar la educación en el ámbito de los hogares afecta el carácter integrador que tiene encontrarse con otros y otras en un centro educativo,SI,EDUCACION
+73,1,False,Flexibilizar controles financieros a las grandes sumas de dinero facilita operaciones de narcotráfico y lavado,SI,ECONOMÍA
+74,1,False,Creo que los cambios que introdujo la LUC mejoraron la seguridad,NO,SEGURIDAD
+75,1,False,"Poder detener a personas por ""hechos de apariencia delictiva"" por ley fomenta una cultura de discriminación y violencia",SI,SEGURIDAD
+76,1,False,"Que al término del contrato de alquiler se reduzca a 30 días el plazo para decidir si renovar el contrato castiga a los ""buenos pagadores"" y vulnera el derecho a la vivienda",SI,VIVIENDA
+77,1,False,Durante los procesos de adopción hay que priorizar las garantías de niños y niñas antes que la velocidad del proceso,SI,ADOPCIONES
+78,1,False,Muchos de los artículos de la LUC no deberían haber sido tratados en forma urgente sino con los tiempos de las leyes comunes,SI,FORMA
+79,1,False,"El uso de  herramientas, como el referéndum, para corregir medidas del gobierno de turno es democrático",SI,FORMA
+80,1,True,"Creo que el referéndum, aunque sea obligatorio, no me afecta directamente",-,META
+81,1,False,"Promover el referéndum contra 135 arts. de la LUC es ""no dejar gobernar""",NO,FORMA
+82,1,True,"Considero que los políticos, o las campañas, pueden hacerme cambiar de opinión",-,META
+17,1,False,El Estado debería poder elegir si pagar a sus proveedores en efectivo o a través de bancos,NO,ECONOMÍA
