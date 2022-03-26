@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# y vos, ¿QUÉ PENSÁS?
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este repositorio contiene el código y datos del cuestionario que estuvo abierto durante los meses previos a la votación del referéndum sobre la LUC en Uruguay.
 
-## Available Scripts
+## Organización
 
-In the project directory, you can run:
+* En `/analisis` se encontrarán notebooks para analizar los datos en la medida que estén disponibles.
 
-### `yarn start`
+* En `/datos` se ecnontrarán los datos en formato csv, y los metadatos correspondientes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## ¿Cómo Funciona?
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+El software utilizado para el cuestionario y análisis de datos se basa en el proyecto open source Pol.is.
 
-### `yarn test`
+Las opiniones de cada participante sobre cada afirmación se almacenan en una gran matriz (participantes * afirmaciones = matriz dispersa de opiniones). Decimos que la matriz es dispersa porque no es obligatorio que cada participante opine sobre todas las afirmaciones.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Luego, sobre esta matriz se computan indicadores y se aplican algoritmos. Entre éstos últimos se destaca el uso de Análisis de Componentes Principales (PCA por sus siglas en inglés) para comparar y posicionar a cada participante respecto a los demás en el espacio de las opiniones. Quienes se encuentran cercanos en este espacio tienden a estar de acuerdo, y más alejados si tienden a estar en desacuerdo.
 
-### `yarn build`
+También se utilizan técnicas de agrupamiento (clustering) para detectar grupos de participantes que opinan en forma similar.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Privacidad y Datos
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+El cuestionario puede responderse de forma anónima o logueandose con facebook o twitter.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Cuando una persona se loguea con redes sociales Pol.is almacena algunos datos como el correo electrónico o el nombre.
 
-### `yarn eject`
+Cuándo los usuarios responden de forma anónima se guardan en la sesión del navegador las respuestas ya contestadas.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+En ningún caso estos datos serán usados con otro objetivo que no sea brindar una mejor experiencia de usuario.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Contestar este cuestionario en una ventana de incógnito maximiza la privacidad de las personas.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Uno de los objetivos de este proyecto es el de disponibilizar, como datos abiertos, la matriz de opiniones para permitir que quien tenga interés pueda acceder a ella.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+En todos los casos, cualquier información que se haga pública, ya sean visualizaciones, análisis o datos en crudo, se mantendrá la anonimidad de los y las participantes, aún si usaron redes sociales para responder.
 
-## Learn More
+## ¿Quiénes Somos?
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Somos un grupo de mujeres y hombres del ámbito académico y profesional que buscan aplicar ciencia y tecnología al debate público con acciones que nos parecen importantes.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+La primera iniciativa del grupo fue disponibilizar un sitio web que comparaba palabra a palabra los cambios introducidos por la Ley de Urgente Consideración para transparentar las consecuencias de una ley extensa y compleja.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Ahora nos planteamos recolectar, mediante un cuestionario en internet, las opiniones de las y los uruguayos sobre los diferentes temas de la LUC, intentando comprender las complejidades que construyen posiciones en un debate que nos afecta a todas y todos.
